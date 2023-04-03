@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suvrat.</title>
+    <script src="./p5.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;700;900&family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="A2style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js">
+    </script>
+</head>
+
+<body>
+    <nav id="navbar" class="banner">
+        <!-- <div class="container"> -->
+        <ul class="banner-ul2">
+            <li><a id='ab' href="#intro">About</a></li>
+            <li><a id='wo' href="#white-border">Work</a></li>
+        </ul>
+        <!-- <img src="#" class="logo1"> -->
+        <ul class="banner-ul1">
+            <li><span></span>
+                <span></span>
+                <span><a href="https://www.instagram.com/suvratprasad21/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a></span>
+                <span></span>
+            </li>
+            <li><span></span>
+                <span></span>
+                <span><a href="https://www.linkedin.com/feed/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a></span>
+                <span></span>
+            </li>
+            <li><span></span>
+                <span></span>
+                <span><a href="https://github.com/NegativeMan21" target="_blank"><i
+                            class="fa-brands fa-github"></i></a></span>
+                <span></span>
+            </li>
+            <li><span></span>
+                <span></span>
+                <span><a href="https://www.youtube.com/@akumaedits9709" target="_blank"><i
+                            class="fa-brands fa-youtube"></i></a></span>
+                <span></span>
+            </li>
+        </ul>
+        <!-- </div> -->
+    </nav>
+    <div id="intro" class="introduction">
+        <p style="font-size:64px; font-weight: 900;top:25%; left:7%;">Hi!</p>
+        <p style="font-size: 64px; font-weight:lighter; top:33%; left:7%;">I am Suvrat,</p>
+        <p style=" width:34%;font-size: 36px; font-weight: bold; top:44%; left:7%;">Currently studying Computer
+            Science and
+            Design at IIITD.
+            I love video-editing, sketching, coding, video games and
+            being creative.
+            In my free time im usually learning cool
+            stuff on the internet or working as a freelancing editor</p>
+        <!-- <svg id="intro-svg" width="250px" height="200px">
+            <a>
+                <circle id="intro-circle" cy="50" cx="75" r="20px" />
+            </a>
+        </svg> -->
+        <button style="cursor:pointer;
+            height:20px; width:20px; border-radius:50%;"></button>
+    </div>
+    <div id="white-border" style="width:100%; height:30px;"></div>
+    <canvas id="mycanvas" class="akuma-box"></canvas>
+    <div class="akuma-box">
+        <div class="akuma-container">
+            <div class="circle">
+                <video src="Sasuke 1.00X 1920X1080 alq-12.mp4" type="video/mp4" class="vid" loop>
+                </video>
+            </div>
+            <div class="content">
+                <p>AKUMA EDITS</p>
+                <p style="font-weight:lighter; font-size: 24px;">A youtube channel dedicated to
+                    video
+                    editing, useful to
+                    portray skills and act as a portfolio</p>
+                <a href="https://www.youtube.com/@akumaedits9709" target="_blank">
+                    <button style="width: 100px; height:100px; color:#111; border-style: none; 
+                        background-color:rgb(255, 255, 255);">
+                        <i class="fa-brands fa-youtube" style="font-size: 80px;">
+                        </i>
+                    </button>
+                </a>
+            </div>
+            <img src="akumapic.jpg">
+        </div>
+    </div>
+    <div id="white-border" style="width:100%; height:20px;"></div>
+    <!-- <div class="tank-box">
+        <div class="tank-container">
+            <div class="tank-circle">
+                <video src="tank stars vid.mp4" type="video/mp4" class="tank-vid" loop>
+                </video>
+            </div>
+            <div class="tank-content">
+                <p>Tank Stars</p>
+                <p style="font-weight:lighter; font-size: 24px;">An implementation of Tank Stars on Java utilising
+                    GDX.lib</p>
+                <a href="https://github.com/NegativeMan21/Tank-Stars-AP-Project" target="_blank"><button
+                        style="width: 100px; height:100px; color:#111; border-style: none; border-radius:50%; background-color:aquamarine;"><i
+                            class="fa-brands fa-github" style="font-size: 80px;"></i></button></a>
+            </div>
+            <img src="tank stars logo.png">
+
+        </div>
+    </div> -->
+    <canvas id="mycanvas3" class="dis-box"></canvas>
+    <div id="dis-id" class="dis-box">
+        <div class="dis-container">
+            <div class="dis-circle">
+                <video src="Prototype for senior citizens.mp4" type="video/mp4" class="dis-vid" loop preload>
+                </video>
+            </div>
+            <div class="dis-content">
+                <p>Smart device for senior citizens</p>
+                <p style="font-weight:lighter; font-size: 24px;">A deivce connected to a TV with a HDMI cable which
+                    increases quality of
+                    life of senior citizens by connecting them to the internet but also makes sure that their experience
+                    has many similarties with their past experience so that utilising it is very intuitive.</p>
+            </div>
+            <img src="old man.jpeg">
+        </div>
+        <svg id="dis-svg" width="250px" height="200px">
+            <rect id="dis-rect" x="0" y="45" ry="5px" rx="5px" width="150px" height="10px" />
+            <circle id="dis-rect-circle" cy="50" cx="75" r="20px" />
+        </svg>
+    </div>
+    <div id="para">
+        <div id='scene' style="padding-top: 100px;">
+            <div class="layer" data-depth="0.50"><img src="tstitle.png"></div>
+            <div class="layer" data-depth="0.20"><img src="tanks.png"></div>
+            <div class="layer" data-depth="0.40"><img src="missiles.png"></div>
+            <div class="layer" data-depth="0.80"><img src="lightningbolt.png"></div>
+            <div class="layer" data-depth="0.10">
+                <div class="tank-content">
+                    <p>
+                        <center>Tank Stars</center>
+                    </p>
+                    <p style="font-weight:lighter; font-size: 24px; padding-left: 10px; margin-bottom: 20px;">An
+                        implementation of Tank Stars
+                        on Java utilising
+                        GDX.lib</p>
+                    <a href="https://github.com/NegativeMan21/Tank-Stars-AP-Project" target="_blank"
+                        style="margin-left: 43%;">
+                        <button style="width: 100px; height:100px; color:#111; border-style: none; border-radius:50%;
+                         background-color:rgb(255, 255, 255);">
+                            <i class="fa-brands fa-github" style="font-size: 80px;">
+                            </i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="./app.js"></script>
+    <script src="./parallax.js"></script>
+    <script type="text/javascript">
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
+</body>
+
+</html>
